@@ -2,11 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails'
 
-gem 'sqlite3'
+gem 'mysql2', :group => [:production, :staging]
+gem 'sqlite3', :group => [:test, :development]
 
 gem 'capistrano'
 gem 'json'
 gem 'jquery-rails'
+gem 'omniauth-shibboleth'
 
 group :assets do
   gem 'sass-rails'

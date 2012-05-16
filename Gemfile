@@ -6,6 +6,7 @@ gem 'mysql2', :group => [:production, :staging]
 gem 'sqlite3', :group => [:test, :development]
 
 gem 'capistrano'
+gem 'haml-rails'
 gem 'json'
 gem 'jquery-rails'
 gem 'omniauth-shibboleth'
